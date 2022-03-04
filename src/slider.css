@@ -1,0 +1,102 @@
+
+
+.h-20px {
+  height: 20px;
+}
+.w-6 {
+  width: 6px;
+}
+.h-6 {
+  height: 6px;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.w-5 {
+  width: 20px;
+}
+.h-5 {
+  height: 20px;
+}
+.border-white {
+  border-color: #fff;
+}
+.translate-y {
+  transform: translateY(50%);
+}
+.-translate-x {
+  transform: translateX(-50%);
+}
+.-ml-10 {
+  margin-left: -10px;
+}
+.-mb-10 {
+  margin-bottom: -10px;
+}
+.bg-gray-e5e5e5 {
+  background-color: #E5E5E5;
+}
+.bg-gray01 {
+  background-color: #E5E5E5;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.top-0 {
+  top: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.left-0 {
+  left: 0;
+}
+.right-0 {
+  right: 0;
+}
+.bottom-1 {
+  bottom: 4px;
+}
+.right-1 {
+  right: 4px;
+}
+.top-1 {
+  top: 4px;
+}
+.left-1 {
+  left: 4px;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.bg-main-color {
+  background-color: #ffe801;
+}
+.border-main-color {
+  border-color: #ffe801;
+}
+.rounded-full {
+  border-radius: 999px;
+}
+.border-2 {
+  border: 2px solid #fff;
+}
+.border-white {
+  border-color: white;
+}
+
