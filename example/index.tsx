@@ -5,9 +5,9 @@ import { SimpleSlider } from '../.';
 
 const App = () => {
   return (
-    <div style={{height: 300  , marginLeft: 50}}>
-      <SimpleSlider vertical />
-    </div>
+    <div style={{width: '100px',height: '200px'}}>
+      <SimpleSlider min={0} max={100} vertical onChange={(e)=>{}}  defaultValue={15}/>
+     </div>
   );
 };
 
