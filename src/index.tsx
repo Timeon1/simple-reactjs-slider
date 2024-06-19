@@ -11,7 +11,7 @@ export interface SliderProps {
 }
 
 
-export const SimpleSlider = (props: SliderProps)=>{
+const SimpleSlider = (props: SliderProps)=>{
   const { vertical=false , min=0 , max=100 , onChange = ()=>{} , defaultValue = 0 } = props
   const [curValue, setCurValue] = useState( Math.floor( ((defaultValue - min ) / (max - min)) * 100 ) )
   const [exactValue, setExactValue] = useState( ((defaultValue - min ) / (max - min)) * 100 )
@@ -117,4 +117,6 @@ export const SimpleSlider = (props: SliderProps)=>{
     </div>
   )
 }
+
+export default SimpleSlider
  
